@@ -8,4 +8,7 @@ let position = 0;
 // creation des constantes et variables
 
 
+function nextImage() {
+    position++;
+// creation des fonctions
 
