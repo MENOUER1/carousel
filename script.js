@@ -12,3 +12,15 @@ function nextImage() {
     position++;
 // creation des fonctions
 
+if (position == li.length){
+    position = 0;
+}
+
+for(let i = 0; i < li.length; i++) {
+    li[i].classList.remove("active");
+}
+
+li[position].classList.add('active');
+}
+// creation de la boucle for
+
